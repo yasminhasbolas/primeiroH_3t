@@ -1,7 +1,7 @@
 # terceiro trimestre
 
 ## identificação
-Beatriz Vitória Bagatini nr.05
+yasmim simeone numero 27 
 
 ## conteudo
 HTML, CSS, JavaScript
