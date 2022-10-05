@@ -1,7 +1,7 @@
-# terceiro trimestre 
+# terceiro trimestre
 
-## Indentificaçao
-yasmim Nr. 27
+## identificação
+Beatriz Vitória Bagatini nr.05
 
-## conteudo 
-HTML, CSS e javascript
+## conteudo
+HTML, CSS, JavaScript
