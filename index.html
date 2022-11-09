@@ -1,30 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primeiro H</title>
-    <link rel="stylesheet" href="geral.css">
     <script src="estudo.js"></script>
+    <link rel="stylesheet" href="geral.css">
+    
 </head>
 <body>
-    <div class="calculadora"><table>
-        <div class="spResul">
-        <span id="resultado">Total: 0,00</span><br>
-    </div>
-     Valor: <input id="val" type="text"><br>
-    Juros: <input id="ju" type="text"><br>
-    Meses: <input id="mes" type="text"><br>
-</table>
-    <button id="btnCalc" onclick="total()">Enviar</button>
-    </div>
-    
-    <div class="listaMensal">
-        <span id="meses">Mês a Mês</span>
-    </div>
+    <input type="checkbox" name="" id="calcFin">
     <div class="calculadora">
-        Digite o valor de a: <input id="a" type="text">
+        <label for="calcFin"><h3>Financeira</h3></label>
+        <div class="calcF"></div>
+        <div class="spResul">
+            <span id="total">Total: 0,00</span><br>
+            </div>
+
+    
+        Valor: <input id="val" type="text"><br>
+        Juros: <input id="ju" type="text"><br>
+        Meses: <input id="mes" type="text"><br>
+        <button id="btnCal" onclick="total()">Enviar</button><br>
+     
+        
+
+    </div>
+    <div class="listaMensal">
+        <span id="meses"> Mês a Mês</span>
+    </div>
+
+    <input type="checkbox" name="" id="calcFin">
+    <div class="calculadora">
+        <label for="calcFin"><h3>Financeira</h3></label>
+        <div class="calcF"></div>
+        <span id="resutado">0,00</span> <br><br>
+        Digite o valor de a: <input  id="a" type="text">
         Digite o valor de b: <input id="b" type="text">
         Digite o valor de c: <input id="c" type="text">
         <button id="calculaRaiz" onclick="Raziz()">Calcule</button>
@@ -32,6 +44,8 @@
         <div class="spResul">
             <span id="raiz"></span>
         </div>
-    </div>
+
+     
+    
 </body>
 </html>
